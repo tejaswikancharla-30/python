@@ -1,0 +1,7 @@
+list1 = [10, 20, 30, 40, 50]
+key = int(input("Enter element to search: "))
+
+if key in list1:
+    print("Element found")
+else:
+    print("Element not found")
